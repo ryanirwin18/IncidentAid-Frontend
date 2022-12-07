@@ -40,6 +40,13 @@ img{
   position: absolute;
   top: 0px;
   right: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: grey;
+}
+.logout:hover{
+  opacity: .8;
 }
 body{
   margin: 0;
