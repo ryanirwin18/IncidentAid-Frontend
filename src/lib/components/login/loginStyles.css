@@ -1,0 +1,108 @@
+.logo{
+  text-align: center;
+}
+img{
+  position: relative;
+  width: 520px;
+  height: 10%;
+  margin-top: 25px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+  background: #313131;
+  letter-spacing: 2px;
+}
+.card-title{
+  text-align: center;
+  padding: 0 0 20px 0;
+  color: #313131;
+}
+form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt-field{
+  border-bottom: 1px solid #000000;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 15px;
+}
+.txt-field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 23px;
+  border: none;
+  outline: none;
+  background: none;
+}
+.Submit{
+  background: #E77933;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 14px;
+  width: 20%;
+  height: 15%;
+  margin: 5px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.pass{
+  background: #F3A431;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 14px;
+  width: 25%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: normal;
+  font-size: 13.3px;
+}
+.back{
+  background: #F3A431;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: normal;
+  font-size: 13.3px;
+  }
+.new_user{
+  margin: 10px 0 20px 5px;
+  text-align: center;
+}
+.new_user a{
+  color: #555252;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+/* psuedo class */
+
+.pass:hover, .Submit:hover, .back:hover{
+  opacity: .85;
+}
+.new_user a:hover{
+  text-decoration: underline;
+} 
+
+/* psuedo elements */
+
+::placeholder{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 25px;
+  margin-left: 12px;
+}
